@@ -1,0 +1,6 @@
+
+{
+  "name": "IntelliQuiz Pro",
+  "description": "A professional quiz platform where admins can upload visual contexts (images/PDFs) and create multi-part sub-questions, featuring real-time progress tracking for students.",
+  "requestFramePermissions": []
+}
