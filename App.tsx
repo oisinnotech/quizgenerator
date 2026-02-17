@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Role, QuizItem } from './types';
-import { AdminDashboard } from './components/AdminDashboard.tsx';
-import { UserPortal } from './components/UserPortal.tsx';
-import { Button } from './components/Button.tsx';
+import { Role, QuizItem } from './types.ts';
+import AdminDashboard from './components/AdminDashboard.tsx';
+import UserPortal from './components/UserPortal.tsx';
+import Button from './components/Button.tsx';
 
 const App: React.FC = () => {
   const [role, setRole] = useState<Role>('NONE');
